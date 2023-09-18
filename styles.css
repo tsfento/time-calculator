@@ -1,0 +1,34 @@
+body {
+    padding: 30px;
+    background: #efefef;
+}
+
+.big-h1 {
+    font-size: 75px;
+}
+
+.container {
+    background: #fff;
+}
+
+.input-container {
+    transition: max-height 5s;
+}
+
+.animate-in1 {
+    transform: scale(0);
+    transition: 0.5s;
+}
+
+.animate-in2 {
+    transform: scale(1);
+}
+
+.animate-out1 {
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.animate-out2 {
+    transform: scale(0);
+}
