@@ -196,6 +196,8 @@ function clrBtnLogic() {
     for (let i = 0; i < inputs.length; i++) {
         inputs[i].value = '';
     }
+
+    bigHOne.innerText = `00:00:00`;
 }
 
 incBtn.addEventListener('click', incBtnLogic);
