@@ -7,6 +7,15 @@ body {
     font-size: 75px;
 }
 
+.inc-btn, .dec-btn {
+    color: lightgrey;
+    border: none;
+}
+
+.inc-btn:hover, .dec-btn:hover {
+    color: grey;
+}
+
 .container {
     background: #fff;
 }
