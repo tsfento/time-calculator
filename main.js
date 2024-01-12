@@ -122,6 +122,7 @@ function subVideos(myArr) {
     let subTotalTime = new Time(vidHours, vidMins, vidSecs);
 
     subTotalTime.printTime();
+    isNegative = false
 }
 
 // const videoLengths = ['0:16:29', '0:14:59', '0:14:24', '0:3:53', '0:19:44', '0:16:44'];
